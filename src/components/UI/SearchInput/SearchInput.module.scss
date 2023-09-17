@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Inter-Regular;
+    src: url('../../../assets/fonts/Inter-Regular.otf');
+}
+
 .input{
     width:25%;
     height:35px;
@@ -5,7 +10,9 @@
     border-radius: 25px;
     color:white;
     padding: 0 25px;
-
+    font-family: Inter-Regular;
+    font-size: 14px;
+    
     &:focus{
         outline:none;
     }
