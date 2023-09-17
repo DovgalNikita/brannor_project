@@ -2,7 +2,7 @@ import styles from './AccessButton.module.scss';
 
 const AccessButton = () => {
     return(
-        <button className={styles.input}>
+        <button className={styles.button}>
             Вход
         </button>
     )

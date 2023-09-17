@@ -1,0 +1,3 @@
+interface ISelectButton{
+    defaultValue: string;
+}

@@ -1,9 +1,10 @@
 import styles from './main.module.scss';
+import CatalogSearchMenu from '../CatalogSearchMenu/CatalogSearchMenu';
 
 const Main = () => {
     return(
-        <main className={styles.main}>
-            
+      <main className={styles.main}>
+          <CatalogSearchMenu />
       </main>
     )
 }   
