@@ -1,0 +1,12 @@
+.input{
+    width:160px;
+    height:35px;
+    border: 1px solid #E52D27;
+    border-radius: 25px;
+    color:#FFFFFF;
+    cursor:pointer;
+
+    &:hover{
+        background-color: rgba(167, 4, 4, 0.1);
+    }
+}

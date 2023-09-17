@@ -1,0 +1,27 @@
+.ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width:30%;
+
+    .li{
+        height:100%;
+        font-size:18;
+        color:white;
+        text-decoration: none;
+        width: fit-content;
+        
+        &:hover{
+            color:#E52D27;
+        }
+
+        >li{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+
+        }
+    }
+}
