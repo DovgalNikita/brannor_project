@@ -1,0 +1,62 @@
+@font-face {
+    font-family: GamestationExtended;
+    src: url('../../assets/fonts/GamestationExtended.otf');
+}
+
+.block{
+    width: 100%;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    .content{
+        width:75%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgb(230,230,230);
+
+        .leftColumn{
+            width:80%;
+            height:100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .titleSection{
+                font-family: GamestationExtended;
+                font-size:30px;
+                color:#EC1C24;
+                height:fit-content;
+            }
+
+            .sectionContent{
+                width: 100%;
+                height:100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .titleContent{
+                    font-family: GamestationExtended;
+                    font-size:40px;
+                    text-transform: uppercase;
+                    width:fit-content;
+                    height:fit-content;
+                }
+
+                .frames{
+                    width: 100%;
+                    height: fit-content;
+                    display: flex;
+                    flex-direction: column;
+                   
+                }
+            }
+        }
+    } 
+}
