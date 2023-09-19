@@ -1,6 +1,6 @@
 import styles from './CatalogSearchMenu.module.scss';
 import SelectButton from '../UI/SelectButton/SelectButton';
-import SearchButton from '../UI/SearchButton/SearchButton';
+import StyledButton from '../UI/StyledButton/StyledButton';
 
 const CatalogSearchMenu = () => {
     return(
@@ -10,7 +10,7 @@ const CatalogSearchMenu = () => {
                 <SelectButton defaultValue='Модель'/>
                 <SelectButton defaultValue='Год'/>
                 <SelectButton defaultValue='Комплектация'/>
-                <SearchButton>Поиск по каталогу</SearchButton>
+                <StyledButton height="35px">Поиск по каталогу</StyledButton>
             </div>
         </div>
     )
