@@ -1,9 +1,15 @@
-import Main from "@/components/screens/Main"
+import styles from './page.module.scss';
+import CatalogSearchMenu from '@/components/CatalogSearchMenu/CatalogSearchMenu';
+import WelcomeSection from '@/components/WelcomeSection/WelcomeSection';
 
-const Home = () => {
-  return(
-    <Main />
-  )
-}
+const Main = () => {
+    return(
+      <main className={styles.main}>
+          <CatalogSearchMenu />
 
-export default Home;
+          <WelcomeSection />
+      </main>
+    )
+}   
+
+export default Main;
