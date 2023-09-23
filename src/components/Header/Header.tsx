@@ -10,7 +10,7 @@ const Header = () => {
         <header className={styles.header}>
             <div className={styles.block}>
                 <div className={styles.content}>
-                    <Image src={logo} alt="" className={styles.logo} />
+                    <Image src={logo} alt="" className={styles.logo} width={200} height={30}/>
                     <SearchInput />
                     <HeaderMenu/>
                     <AccessButton />
