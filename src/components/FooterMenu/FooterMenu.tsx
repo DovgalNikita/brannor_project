@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import styles from './FooterMenu.module.scss';
+import { FC } from 'react';
 
-const FooterMenu = () => {
+const FooterMenu: FC = () => {
     return(
         <ul className={styles.ul}>
             <Link href="" className={styles.li}><li>Контакты</li></Link>

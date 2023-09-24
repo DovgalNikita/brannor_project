@@ -2,8 +2,9 @@ import styles from './Footer.module.scss';
 import Image from 'next/image';
 import FooterMenu from '../FooterMenu/FooterMenu';
 import logo from '../../assets/images/logo.png';
+import { FC } from 'react';
 
-const Footer = () => {
+const Footer: FC = () => {
     return(
         <div className={styles.footer}>
             <div className={styles.content}>

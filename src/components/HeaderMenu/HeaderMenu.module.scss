@@ -24,12 +24,12 @@
             
             text-align: center;
             font-size:14px;
-            color:rgb(230, 230, 230);
+            color:rgba(230, 230, 230,0.5);
             font-family: Inter-Regular;
             height:fit-content;
 
             &:hover{
-                color:#EC1C24;
+                color:rgb(230, 230, 230);
             }
         }
     }
