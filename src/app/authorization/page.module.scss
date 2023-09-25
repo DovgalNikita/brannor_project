@@ -2,28 +2,74 @@
     font-family: GamestationExtended;
     src: url('../../assets/fonts/GamestationExtended.otf');
 }
+@font-face {
+    font-family: Inter-Regular;
+    src: url('../../assets/fonts/Inter-Regular.otf');
+}
 
 .main{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     width:100%;
-    height:100%;
+    height:600px;
 
     .authBlock{
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         width: 100%;
-        height:500px;
+        height:fit-content;
         background-color: rgb(35, 35, 35);
 
-        .title{
-            font-size:30px;
-            color:rgb(230,230,230);
-            font-family: GamestationExtended;
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width:fit-content;
+            height:fit-content;
+
+            .title{
+                font-size:30px;
+                color:rgb(230,230,230);
+                font-family: GamestationExtended;
+                margin-top:50px;
+            }
+    
+            .form{
+                width:fit-content;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height:100px;
+                margin-top:25px;
+            }
+
+            @mixin typeFont{
+                font-family: Inter-Regular;
+                font-size: 10px;
+                text-decoration: none;
+                color:rgb(230,230,230);
+            }
+                .recoveryLink{
+                    width:fit-content;
+                    @include typeFont;
+                }
+            
+                .registrLink{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width:100%;
+                    height:25px;
+                    margin:25px 0 50px;
+                    border-top:1px solid grey;
+                    @include typeFont;
+                }
         }
+        
     }
 }
