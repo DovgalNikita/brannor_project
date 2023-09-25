@@ -1,10 +1,14 @@
+import { FC } from 'react';
 import styles from './AccessButton.module.scss';
+import Link from 'next/link';
 
-const AccessButton = () => {
+const AccessButton: FC = () => {
     return(
-        <button className={styles.button}>
-            Вход
-        </button>
+        <Link href="/authorization">
+            <button className={styles.button}>
+                Вход
+            </button>
+        </Link>
     )
 }
 

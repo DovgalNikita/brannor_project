@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Inter-Regular;
+    src: url('../../assets/fonts/Inter-Regular.otf');
+}
+
+.block{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:70px;
+    text-decoration: none;
+
+    &>div{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width:auto;
+        height:auto;
+        color:rgb(230,230,230);
+        cursor:pointer;
+        overflow: hidden;
+    }
+
+    .title{
+        font-size:13px;
+        font-family: Inter-Regular;
+    }
+
+
+}

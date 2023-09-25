@@ -4,6 +4,7 @@ import Image from 'next/image';
 import logo from '../../assets/images/logo.png';
 import SearchInput from '../UI/SearchInput/SearchInput';
 import AccessButton from '../UI/AccessButton/AccessButton';
+import AuthIcon from '../AuthIcon/AuthIcon';
 
 const Header = () => {
     return(
@@ -13,6 +14,7 @@ const Header = () => {
                     <Image src={logo} alt="" className={styles.logo} width={200} height={30}/>
                     <SearchInput />
                     <HeaderMenu/>
+                    {/* <AuthIcon name = "Анатолий"/> */}
                     <AccessButton />
                 </div>
             </div>
