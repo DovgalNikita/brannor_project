@@ -1,0 +1,27 @@
+.block{
+    width:fit-content;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+
+    .content{
+        position: relative;
+        width:auto;
+        height:auto;
+
+        .itemCounter{
+            position:absolute;
+            background: linear-gradient(90deg, #E52D27 0%, #B31217 100%);
+            padding:2px;
+            min-width:20px;
+            border-radius: 10px;
+            text-align: center;
+            right:-10px;
+            top:-10px;
+            color:rgb(230,230,230);
+            font-weight: 600;
+        }
+    }
+}

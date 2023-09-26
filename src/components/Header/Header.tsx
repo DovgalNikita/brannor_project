@@ -5,6 +5,7 @@ import logo from '../../assets/images/logo.png';
 import SearchInput from '../UI/SearchInput/SearchInput';
 import AccessButton from '../UI/AccessButton/AccessButton';
 import AuthIcon from '../AuthIcon/AuthIcon';
+import ShoppingCart from '../ShoppingCart/ShoppingCart';
 import Link from 'next/link';
 
 const Header = () => {
@@ -15,8 +16,11 @@ const Header = () => {
                     <Link href="/"><Image src={logo} alt="" className={styles.logo} width={200} height={30}/></Link>
                     <SearchInput />
                     <HeaderMenu/>
-                    {/* <AuthIcon name = "Анатолий"/> */}
-                    <AccessButton />
+                    <div className={styles.personalBlock}>
+                        <ShoppingCart />
+                        <AuthIcon name = "Анатолий"/>
+                    </div>
+                    {/* <AccessButton /> */}
                 </div>
             </div>
         </header>
