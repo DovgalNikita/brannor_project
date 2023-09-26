@@ -7,6 +7,7 @@ import AccessButton from '../UI/AccessButton/AccessButton';
 import AuthIcon from '../AuthIcon/AuthIcon';
 import ShoppingCart from '../ShoppingCart/ShoppingCart';
 import Link from 'next/link';
+import {data} from '../../server/data';
 
 const Header = () => {
     return(
