@@ -4,6 +4,8 @@ import styles from './page.module.scss';
 import Input from "@/components/UI/Input/Input";
 import StyledButton from "@/components/UI/StyledButton/StyledButton";
 
+
+
 const Authorization: NextPage = () => {
     return(
         <main className={styles.main}>
