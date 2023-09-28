@@ -1,0 +1,51 @@
+@font-face {
+    font-family: GamestationExtended;
+    src: url('../../assets/fonts/GamestationExtended.otf');
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+
+    .block{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width:75%;
+        margin-top:50px;
+
+        .title{
+            width:100%;
+            font-family: GamestationExtended;
+            font-size:32px;
+            color:rgb(230,230,230);
+        }
+
+        .divider{
+            width:100%;
+            height:1px;
+            background-color: grey;
+            margin:25px 0;
+        }
+
+        .content{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width:100%;
+            height: fit-content;
+
+
+            .orderDetails{
+                width:30%;
+                height:300px;
+                background-color: #232122;
+                border-radius: 15px;
+            }
+        }
+    }
+}
