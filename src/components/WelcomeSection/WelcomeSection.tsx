@@ -19,7 +19,7 @@ const WelcomeSection: FC = () => {
                             самых передовых стандартах  современной автомобильной  промышленности
                         </p>
                     </div>
-                    <div className={styles.moreInfoButton}><div><StyledButton height="50px">Узнать больше о компании</StyledButton></div></div>
+                    <div className={styles.moreInfoButton}><div><StyledButton width={"fit-content"} height="50px" margin={"0"}>Узнать больше о компании</StyledButton></div></div>
                 </div>
 
                 <Image src={mainScreenLogo} width={500} height={300} alt="" className={styles.img}/>

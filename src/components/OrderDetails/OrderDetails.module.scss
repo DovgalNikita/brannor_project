@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Inter-Regular;
+    src: url('../../assets/fonts/Inter-Regular.otf');
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    height:300px;
+    background-color: #232122;
+    border-radius: 15px;
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width:80%;
+        height:85%;
+    
+        .title{
+            color:rgb(230,230,230);
+            font-family: Inter-Regular;
+            font-size:20px;
+            line-height: 20px;
+            width:100%;
+        }
+
+        .detailsBlock{
+            width: 100%;
+            height:fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .detailsLine{
+                width:100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-end;
+                margin:10px 0;
+
+                &>div{
+                    color:rgb(230,230,230);
+                    font-family: Inter-Regular;
+                    font-size: 15px;
+                    line-height: 15px;
+                }
+                .divider{
+                    width:50%;
+                    border-bottom:1px dashed rgb(179, 177, 177);
+                }
+            }
+        }
+
+        .totalSum{
+            width:100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin:10px 0;
+
+            &>div{
+                color:rgb(230,230,230);
+                font-family: Inter-Regular;
+                font-size: 20px;
+                line-height: 15px;
+            }
+            .divider{
+                width:50%;
+                border-bottom:1px dashed rgb(179, 177, 177);
+            }
+        }
+    }
+
+    
+}

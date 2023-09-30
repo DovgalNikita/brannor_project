@@ -1,6 +1,7 @@
 import { NextPage } from "next"
 import styles from './page.module.scss';
 import Basket from "@/components/Basket/Basket";
+import OrderDetails from "@/components/OrderDetails/OrderDetails";
 
 
 const BasketPage: NextPage = () => {
@@ -11,7 +12,7 @@ const BasketPage: NextPage = () => {
                 <div className={styles.divider}></div>
                 <div className={styles.content}>
                     <Basket />
-                    <div className={styles.orderDetails}></div>
+                    <OrderDetails />
                 </div>
                 
             </div>
