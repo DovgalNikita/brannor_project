@@ -7,7 +7,7 @@ import { NextPage } from 'next';
 const Main: NextPage = () => {
     return(
       <main className={styles.main}>
-          <CatalogSearchMenu />
+          <CatalogSearchMenu marginTop="50px"/>
           <WelcomeSection />
           <GoodsSection />
       </main>

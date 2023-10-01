@@ -1,0 +1,3 @@
+interface ICatalogSearchMenu{
+    marginTop?:string;
+}

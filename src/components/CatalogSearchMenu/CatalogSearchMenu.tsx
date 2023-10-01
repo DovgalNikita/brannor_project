@@ -1,10 +1,11 @@
 import styles from './CatalogSearchMenu.module.scss';
 import SelectButton from '../UI/SelectButton/SelectButton';
 import StyledButton from '../UI/StyledButton/StyledButton';
+import {FC} from 'react';
 
-const CatalogSearchMenu = () => {
+const CatalogSearchMenu: FC<ICatalogSearchMenu> = ({marginTop}) => {
     return(
-        <div className={styles.block}>
+        <div className={styles.block} style={{marginTop:marginTop}}>
             <div className={styles.content}>
                 <SelectButton defaultValue='Марка'/>
                 <SelectButton defaultValue='Модель'/>
